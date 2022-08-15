@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1061873210478",
+    "project_id": "onepercentageclub-a21b8",
+    "storage_bucket": "onepercentageclub-a21b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061873210478:android:e2bddddf35dbbdc649027f",
+        "android_client_info": {
+          "package_name": "one.percentage.onepercentage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061873210478-9q8nir99uo1cpsdihcqc51ks5nb2fon9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "one.percentage.onepercentage",
+            "certificate_hash": "f6fa3447c8c774effd46efee029d217120c60e3c"
+          }
+        },
+        {
+          "client_id": "1061873210478-pjcqsj9vnfue92n09g7au2fbq9jnopf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfTvDOTWhgFBfDaJ7bFgklpYDGBe8ncI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061873210478-pjcqsj9vnfue92n09g7au2fbq9jnopf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
