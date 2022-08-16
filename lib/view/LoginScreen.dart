@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
   FloatingActionButton LoginButton() {
     return FloatingActionButton.extended(
       onPressed: () async {
-        await controller.login();
+        await controller.googleSignInMethod();
       },
       label: Text('SignIn With Your Google Account'),
       icon: Image.asset(
