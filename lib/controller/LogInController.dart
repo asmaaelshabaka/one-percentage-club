@@ -20,10 +20,10 @@ class loginController extends GetxController {
         accessToken: googleSignInAuthentication.idToken);
     await _auth.signInWithCredential(credential).then((user)async => {
       await    FireStoreUser().addUserToFireStore(UserModel(
-              UserId: "user.user!.uid",
-              UserName: "user.user!.displayName.toString()",
-              UserEmail: "user.user!.email.toString()",
-              UserPic: "user.user!.photoURL.toString()"))
+              UserId: user.user!.uid,
+              UserName: user.user!.displayName.toString(),
+              UserEmail: user.user!.email.toString(),
+              UserPic: user.user!.photoURL.toString()))
         });
   }
 }
