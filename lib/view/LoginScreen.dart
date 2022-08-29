@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:onepercentage/view/HomeScreen.dart';
 
 import '../controller/LogInController.dart';
 
@@ -21,7 +22,8 @@ class LoginScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       Text(controller.googleAccount.value!.displayName
-                          .toString())
+                          .toString()),
+                      FloatingActionButton(onPressed: (){Get.to(HomeScreen());})
                     ],
                   ),
                 );
