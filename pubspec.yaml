@@ -41,6 +41,7 @@ dependencies:
   firebase_core: ^1.20.1
   firebase_auth: ^3.6.3
   cloud_firestore: ^3.4.2
+  multi_select_flutter: ^4.1.2
 
 flutter_native_splash:
   color: "#42a5f5"
@@ -77,6 +78,11 @@ flutter:
   assets:
     - images/splashImage.png
     - images/GoogleIcon.png
+    - images/books.png
+    - images/sleep.png
+    - images/running.png
+    - images/swimming.png
+    - images/ProfileImage.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
